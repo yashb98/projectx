@@ -1,0 +1,36 @@
+{
+  "name": "projectx",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mui/x-data-grid": "^7.27.3",
+    "lucide-react": "^0.479.0",
+    "next": "15.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-gantt": "^2.1.8"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.17.24",
+    "@types/numeral": "^2.0.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/tailwindcss": "^3.0.11",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.2",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
